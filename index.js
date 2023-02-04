@@ -14,7 +14,7 @@ const server = http
         if (req.url === '/') {
           res.write('<!DOCTYPE html><html lang="ja"><body>' +
             '<h1>アンケートフォーム</h1>' +
-            '<a href="http://soroban.nnn.ed.nico/enquetes">アンケート一覧</a>' +
+            '<a href="/enquetes">アンケート一覧</a>' +
             '</body></html>');
         } else if (req.url === '/enquetes') {
           res.write('<!DOCTYPE html><html lang="ja"><body>' +
